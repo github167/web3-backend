@@ -3,5 +3,5 @@
 3. npm install
 4. util/evm.js: Modify the walletKey(), return "your private key" (in goerli network)
 5. npm start
-6. goto http://localhost:8080 for a list of available network
+6. goto http://localhost:8080 for a list of available networks
 7. goto http://localhost:8080/goerli to get the balance
