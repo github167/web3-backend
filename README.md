@@ -1,11 +1,7 @@
-# Web3 Backend Boilerplate
-1. Original
-https://github.com/HemlockStreet/web3-backend
-
-This is a boilerplate for quickly creating a web3-enabled api and frontend that dynamically supports whatever EVM network the backend is configured for.
-
-## Features
-
-- automatic wallet creation
-- fetch gas balance of the server's address
-- withdraw from the server's balance
+1. Original: https://github.com/HemlockStreet/web3-backend
+2. git clone to your local machine
+3. npm install
+4. util/evm.js: Modify the walletKey(), return "your private key" (in goerli network)
+5. npm start
+6. goto http://localhost:8080 for a list of available network
+7. goto http://localhost:8080/goerli to get the balance
